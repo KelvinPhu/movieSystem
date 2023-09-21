@@ -41,7 +41,7 @@ public class actors {
 	}
 
 	// getter & setter
-	public Long getActorsID() {
+	public Long getActorsID(){
 		return actorsID;
 	}
 
