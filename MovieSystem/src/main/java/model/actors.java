@@ -72,6 +72,4 @@ public class actors {
 	public void setMoviesList(Set<movies> moviesList) {
 		this.moviesList = moviesList;
 	}
-	
-	
 }
