@@ -28,8 +28,8 @@ public class main {
 			System.out.println("Movies System Management");
 			System.out.println("========================");
 			System.out.println("Option 1 Movies \r\n"
-							 + "Option 2 Genres \r\n"
-							 + "Option 3 Actors \r\n");
+					 + "Option 2 Genres \r\n"
+					 + "Option 3 Actors \r\n");
 			choice = sc.nextInt();
 			sc.nextLine();
 			
