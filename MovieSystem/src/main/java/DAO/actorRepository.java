@@ -19,9 +19,9 @@ public class actorRepository{
 		if (sf != null) {
 			try(Session s = sf.openSession()) {
 				Transaction trans = s.beginTransaction();
-				
+
+				// this is a transaction
 				s.saveOrUpdate(a);
-				
 				trans.commit();
 				
 			} catch (Exception e) {
