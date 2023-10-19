@@ -65,5 +65,4 @@ public class genres {
 	    moviesList.add(movie);
 	    movie.setGenre(this);
 	}
-
 }
