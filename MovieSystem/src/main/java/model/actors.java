@@ -15,6 +15,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "actors")
 public class actors {
+	
 	@Id
 	@GeneratedValue
 	private Long actorsID;
