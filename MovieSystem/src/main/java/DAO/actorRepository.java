@@ -57,15 +57,15 @@ public class actorRepository{
 		}
 		return null;
 	}
-	
-	public ArrayList<actors> selectByYearCondition(int condition) {
+
+	public ArrayList<actors> selectByCondition(String condition) {
 		ArrayList<actors> list = new ArrayList<>();
 		SessionFactory sf = hibernateUtil.getSessionFactory();
 		if (sf != null) {
 			try(Session s = sf.openSession()) {
 				Transaction trans = s.beginTransaction();
 				
-				String hql = "from actor a where a.yearOfBirth =: condition";
+				String hql = "from actor a where a.actorsName =: condition";
 				Query q = s.createQuery(hql);
 				q.setParameter("condition", condition);
 				list = (ArrayList<actors>) q.getResultList();
@@ -79,14 +79,14 @@ public class actorRepository{
 		return list;
 	}
 	
-	public ArrayList<actors> selectByCondition(String condition) {
+	public ArrayList<actors> selectByYearCondition(int condition) {
 		ArrayList<actors> list = new ArrayList<>();
 		SessionFactory sf = hibernateUtil.getSessionFactory();
 		if (sf != null) {
 			try(Session s = sf.openSession()) {
 				Transaction trans = s.beginTransaction();
 				
-				String hql = "from actor a where a.actorsName =: condition";
+				String hql = "from actor a where a.yearOfBirth =: condition";
 				Query q = s.createQuery(hql);
 				q.setParameter("condition", condition);
 				list = (ArrayList<actors>) q.getResultList();
