@@ -26,13 +26,6 @@ public class genres {
 		super();
 	}
 
-	public genres(Long genresID, String genresName, List<movies> moviesList) {
-		super();
-		this.genresID = genresID;
-		this.genresName = genresName;
-		this.moviesList = moviesList;
-	}
-
 	public genres(Long genresID, String genresName, List<movies> moviesList){
 		super();
 		this.genresID = genresID;
