@@ -33,6 +33,13 @@ public class genres {
 		this.moviesList = moviesList;
 	}
 
+	public genres(Long genresID, String genresName, List<movies> moviesList){
+		super();
+		this.genresID = genresID;
+		this.genresName = genresName;
+		this.movieList = movieList;
+	}
+
 	// setter & getter
 	public Long getGenresID() {
 		return genresID;
