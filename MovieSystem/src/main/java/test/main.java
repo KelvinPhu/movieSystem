@@ -308,6 +308,35 @@ public class main {
 						case 1:
 							
 							break;
+						case 2:
+											
+							break;
+						case 3:
+							
+							break;
+						case 4:
+							
+							break;
+		
+						default:
+							break;
+					}
+					
+					break;
+	
+				case 3:
+					System.out.println("1. Adding object of type Actor to database \r\n"
+									 + "2. Searching object of type actor by ID \r\n"
+									 + "3. Seaching object of type actor by year condition \r\n"
+									 + "4. Seaching object of type actor by name condition \r\n");
+					choice = sc.nextInt();
+					sc.nextLine();
+					
+
+					switch (choice) {
+						case 1:
+							
+							break;
 							
 						case 2:
 							
@@ -327,34 +356,6 @@ public class main {
 						default:
 							break;
 					}
-					break;
-	
-				case 3:
-					System.out.println("1. Adding object of type Actor to database \r\n"
-									 + "2. Searching object of type actor by ID \r\n"
-									 + "3. Seaching object of type actor by year condition \r\n"
-									 + "4. Seaching object of type actor by name condition \r\n");
-					choice = sc.nextInt();
-					sc.nextLine();
-					
-					switch (choice) {
-						case 1:
-							
-							break;
-						case 2:
-											
-							break;
-						case 3:
-							
-							break;
-						case 4:
-							
-							break;
-		
-						default:
-							break;
-					}
-					
 					break;
 					
 				
