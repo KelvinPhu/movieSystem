@@ -31,10 +31,6 @@ public class movies {
 	
 	
 	// constructor
-	public movies() {
-		super();
-	}
-
 	public movies(Long moviesID, String moviesTitle, int yearOfReleast, genres genre, Set<actors> actorsList) {
 		super();
 		this.moviesID = moviesID;
@@ -42,6 +38,10 @@ public class movies {
 		this.yearOfReleast = yearOfReleast;
 		this.genre = genre;
 		this.actorsList = actorsList;
+	}
+
+	public movies() {
+		super();
 	}
 
 	// getter & setter
