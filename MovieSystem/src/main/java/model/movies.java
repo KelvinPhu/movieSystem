@@ -45,22 +45,6 @@ public class movies {
 	}
 
 	// getter & setter
-	public Long getMoviesID() {
-		return moviesID;
-	}
-
-	public void setMoviesID(Long moviesID) {
-		this.moviesID = moviesID;
-	}
-
-	public String getMoviesTitle() {
-		return moviesTitle;
-	}
-
-	public void setMoviesTitle(String moviesTitle) {
-		this.moviesTitle = moviesTitle;
-	}
-
 	public int getYearOfReleast() {
 		return yearOfReleast;
 	}
@@ -75,6 +59,22 @@ public class movies {
 
 	public void setGenre(genres genre) {
 		this.genre = genre;
+	}
+
+	public Long getMoviesID() {
+		return moviesID;
+	}
+
+	public void setMoviesID(Long moviesID) {
+		this.moviesID = moviesID;
+	}
+
+	public String getMoviesTitle() {
+		return moviesTitle;
+	}
+
+	public void setMoviesTitle(String moviesTitle) {
+		this.moviesTitle = moviesTitle;
 	}
 
 	public Set<actors> getActorsList() {
