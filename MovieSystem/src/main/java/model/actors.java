@@ -30,15 +30,14 @@ public class actors {
 	private Set<movies> moviesList = new HashSet<movies>();
 	
 	// constructor
-	public actors() {
-		super();
-	}
-
 	public actors(Long actorsID, String actorsName, int yearOfBirth) {
 		super();
 		this.actorsID = actorsID;
 		this.actorsName = actorsName;
 		this.yearOfBirth = yearOfBirth;
+	}
+	public actors() {
+		super();
 	}
 
 	// getter & setter
